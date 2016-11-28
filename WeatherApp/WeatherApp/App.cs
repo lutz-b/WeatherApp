@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using WeatherApp.Pages;
 using Xamarin.Forms;
 
 namespace WeatherApp
@@ -11,6 +11,12 @@ namespace WeatherApp
     {
         public App()
         {
+            // Use weather page as default page
+            var weatherPage = new NavigationPage(new WeatherPage());
+            MainPage = weatherPage;
+
+            return;
+
             // The root page of your application
             var content = new ContentPage
             {
