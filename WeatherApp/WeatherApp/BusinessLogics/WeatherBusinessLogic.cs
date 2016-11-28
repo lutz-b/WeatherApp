@@ -9,7 +9,7 @@ using WeatherApp.Shared;
 
 namespace WeatherApp.BusinessLogics
 {
-    class WeatherBusinessLogic
+    public class WeatherBusinessLogic
     {
         public static async Task<WeatherModel> GetWeather(string zipCode)
         {
