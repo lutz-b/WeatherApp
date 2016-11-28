@@ -36,7 +36,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="BusinessLogics\WeatherBusinessLogic.cs" />
+    <Compile Include="DataServices\DataService.cs" />
+    <Compile Include="DataServices\WeatherDataService.cs" />
+    <Compile Include="Models\WeatherModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shared\WeatherConstants.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
